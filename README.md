@@ -3,7 +3,7 @@
 Project to predict Crypto currency Price from analyzing sentiments dataset of crypto related online texts, this includes tweets and news articles related to bitcoin.
 
 ### Pipeline
-1. Data Collection and Transformation
+1. Data Collection and Transformation( here 1> Extract the data   2> Clean the data  3> Transform the data)
 2. Discretization
 3. Rule generation using Decision Tree
 4. Defuzzification using Fuzzy Inference System
