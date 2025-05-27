@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        powershell 'ls -la'
+        powershell 'ls -Force'
       }
     }
 
