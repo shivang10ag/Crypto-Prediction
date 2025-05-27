@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front -end Unit Tests ') {
           steps {
-            powershell 'cd curriculum-front npm install npm run test:unit'
+            powershell 'cd curriculum-front; npm install; npm run test:unit'
           }
         }
 
